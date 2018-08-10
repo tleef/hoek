@@ -26,7 +26,7 @@
   },
   "scripts": {
     "build": "babel src --out-dir lib",
-    "test": "mocha",
+    "test": "mocha --require @babel/register",
     "test:coverage": "nyc --reporter lcovonly --reporter text yarn test",
     "prepare": "yarn build"
   },
