@@ -7,7 +7,7 @@ const Path = require('path');
 const Util = require('util');
 
 const Code = require('code');
-const Hoek = require('../lib');
+const Hoek = require('../src');
 const Lab = require('lab');
 
 

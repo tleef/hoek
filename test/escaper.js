@@ -3,7 +3,7 @@
 // Load modules
 
 const Code = require('code');
-const Hoek = require('../lib');
+const Hoek = require('../src');
 const Lab = require('lab');
 
 
