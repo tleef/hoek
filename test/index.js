@@ -6,9 +6,8 @@ const Fs = require('fs');
 const Path = require('path');
 const Util = require('util');
 
-const Code = require('code');
+const Code = require('@tleef/code');
 const Hoek = require('../src');
-const Lab = require('lab');
 
 
 // Declare internals
@@ -18,7 +17,6 @@ const internals = {};
 
 // Test shortcuts
 
-const { describe, it } = exports.lab = Lab.script();
 const expect = Code.expect;
 
 
